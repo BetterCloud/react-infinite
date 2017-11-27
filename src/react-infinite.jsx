@@ -300,6 +300,9 @@ class Infinite extends React.Component<
   }
 
   componentDidMount() {
+    if (this.props.onLoad) {
+      this.props.onLoad(this.scrollable)
+    }
     this.utils.subscribeToScrollListener();
 
     if (!this.hasAllVisibleItems()) {
