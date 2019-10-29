@@ -462,7 +462,7 @@ describe("React Infinite's Infinite Scroll Capabilities", function() {
       target: rootDomNode
     });
 
-    expect(rootNode.find('.delegate-div').exists()).toBe(true);
+    expect(infiniteSpy).toHaveBeenCalled()
   });
 });
 
