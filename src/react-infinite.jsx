@@ -388,7 +388,6 @@ class Infinite extends React.Component<
   };
 
   onInfiniteLoad = () => {
-    this.setState({ isInfiniteLoading: true });
     this.computedProps.onInfiniteLoad();
   };
 

@@ -1,6 +1,6 @@
 {
   "name": "react-infinite",
-  "version": "0.12.1",
+  "version": "0.12.2",
   "description": "A browser-ready efficient scrolling container based on UITableView",
   "main": "build/react-infinite.js",
   "repository": {
@@ -60,6 +60,7 @@
     "babel-plugin-transform-object-rest-spread": "6.23.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.8",
     "babel-preset-es2015": "6.24.1",
+    "babel-preset-flow": "6.23.0",
     "babel-preset-react": "6.24.1",
     "babelify": "7.3.0",
     "browserify": "^9.0.3",
@@ -75,6 +76,7 @@
     "eslint-plugin-flowtype": "2.35.0",
     "eslint-plugin-react": "7.1.0",
     "eslint-plugin-standard": "3.0.1",
+    "eslint-plugin-prettier": "2.7.0",
     "flow-bin": "0.52.0",
     "gulp": "^3.8.8",
     "gulp-babel": "6.1.2",
